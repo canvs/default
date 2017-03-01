@@ -180,11 +180,11 @@ $(function(){
 <body>
 <!-- PublicTopLayout Begin -->
 <?php require_once template('layout/layout_top');?>
-<DIV id=homeTopAd01 style=" position:absolute; left:50%; margin:0 0 0 -600px; ">
+<DIV id=homeTopAd01 style=" position:absolute; left:50%; margin:0 0 0 -600px;display:none; ">
 <div style="margin:0 auto; width:1200px;" ><?php echo loadadv(1047);?></div>
 <div style=" position:absolute; z-index:1; top:5px; right:5px; "><a style="CURSOR: hand" onClick="homeTopAd()"><img src="<?php echo SHOP_TEMPLATES_URL;?>/images/close.png" width="24" height="24" /></a></div>
 </DIV>
-<div id=homeTopAd02 style=" height:80px; "></div>
+<div id=homeTopAd02 style=" height:80px;display: none; "></div>
 <SCRIPT>
  function homeTopAd(){
   document.getElementById("homeTopAd01").style.display="none";
